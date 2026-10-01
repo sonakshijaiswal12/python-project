@@ -1,0 +1,3 @@
+String text = "level";
+String reversed = new StringBuilder(text).reverse().toString();
+System.out.println(text.equalsIgnoreCase(reversed));
